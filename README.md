@@ -31,14 +31,11 @@ copy(JSON.parse(localStorage.token).refresh_token); console.log(JSON.parse(local
 
 #### 第三步：添加环境变量
 
-> `CLIENT_ID` 需添加 `环境变量` 权限
+
 
 | 参数          | 说明                                             |
-| ------------- | ------------------------------------------------ |
+| ------------- | ----------------------------------------------- |
 | refreshToken  | 阿里云盘 refresh_token, 添加多个可支持多账户签到 |
-| CLIENT_ID     | 可选项, 用于青龙面板 API 更新 refreshToken 字段  |
-| CLIENT_SECRET | 可选项, 用于青龙面板 API 更新 refreshToken 字段  |
-| QL_PATH       | 可选项, 青龙面板path                            |
 
 `CLIENT_ID` 和 `CLIENT_SECRET` 可在 `青龙面板 -> 系统设置 -> 应用设置 -> 新建应用` 新增, 用于自动更新环境变量内 `refreshToken` 配置
 
@@ -46,7 +43,7 @@ copy(JSON.parse(localStorage.token).refresh_token); console.log(JSON.parse(local
 
 > 添加订阅后可在定时任务列表发现新增任务, 可自行调整任务执行时间
 ```shell
-ql repo https://github.com/mrabit/aliyundriveDailyCheck.git "autoSignin" "" "qlApi"
+ql repo https://github.com/lsh1215225/aliyun.git "autoSignin" "" "qlApi"
 ```
 
 ##### 新版本:
