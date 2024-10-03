@@ -37,7 +37,6 @@ copy(JSON.parse(localStorage.token).refresh_token); console.log(JSON.parse(local
 | ------------- | ----------------------------------------------- |
 | refreshToken  | 阿里云盘 refresh_token, 添加多个可支持多账户签到 |
 
-`CLIENT_ID` 和 `CLIENT_SECRET` 可在 `青龙面板 -> 系统设置 -> 应用设置 -> 新建应用` 新增, 用于自动更新环境变量内 `refreshToken` 配置
 
 #### 第四步：添加订阅
 
