@@ -67,4 +67,4 @@ ql repo https://github.com/lsh1215225/aliyun.git "autoSignin" "" "qlApi"
 
 - @Anonym-w: [Anonym-w/autoSigninAliyun](https://github.com/Anonym-w/autoSigninAliyun)
 - @ImYrS: [ImYrS/aliyun-auto-signin](https://github.com/ImYrS/aliyun-auto-signin)
-- @mrabit: [https://github.com/mrabit/aliyundriveDailyCheck/tree/master)
+- @mrabit: https://github.com/mrabit/aliyundriveDailyCheck/tree/master
